@@ -70,7 +70,7 @@ export GL_SECRET=<secret token>
 Then, if not already done, export your GitLab personal access token:
 
 ```bash
-export GL_ACCESS_TOKEN=<acess token>
+export GL_ACCESS_TOKEN=<access token>
 ```
 
 ## How to run as simple Python script

@@ -1,3 +1,4 @@
+import os
 from gidgetlab.aiohttp import GitLabBot
 
 bot = GitLabBot(os.environ["GL_ACCOUNT"])
