@@ -1,0 +1,11 @@
+---
+applications:
+- name: gitlab-bot
+  memory: 256M
+  buildpacks:
+  - python_buildpack
+  env:
+    GL_ACCESS_TOKEN: _xDnW3ey38c7dx76d7Ga
+    GL_SECRET: yoloswag
+    GL_ACCOUNT: andreasevers
+  command: python bot.py
