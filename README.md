@@ -87,7 +87,7 @@ python3 bot.py
 
 ## How to run on Cloud Foundry
 
-### Only for airgapped Cloud Foundry:
+*Only for airgapped Cloud Foundry:*
 
 ```bash
 mkdir -p vendor
