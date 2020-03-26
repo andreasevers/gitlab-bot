@@ -85,6 +85,19 @@ python3 bot.py
 (Press CTRL+C to quit)
 ```
 
+## How to run on Cloud Foundry
+
+### Only for airgapped Cloud Foundry:
+
+```bash
+mkdir -p vendor
+pip download -r requirements.txt --no-binary=:none: -d vendor
+```
+
+```bash
+cf push
+```
+
 ## How to build with Docker
 
 ```bash
